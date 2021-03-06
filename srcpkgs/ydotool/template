@@ -1,0 +1,16 @@
+# Template file for 'ydotool'
+# USES CMAKE CPM. LIKELY WON'T BE ADDED
+pkgname=ydotool
+version=0.2.0
+revision=1
+#archs="i686 x86_64"
+build_style=cmake
+hostmakedepends="git"
+makedepends="git"
+depends=""
+short_desc="Generic command-line automation tool (no X!) "
+maintainer="ajshell1 <11084981+ajshell1@users.noreply.github.com>"
+license="AGPL-3.0-only"
+homepage="https://github.com/ReimuNotMoe/ydotool"
+distfiles="https://github.com/ReimuNotMoe/ydotool/archive/v0.2.0.tar.gz"
+checksum=2311b003d2ff383f3348f17101f0df74f56616d530d66d0a014a52ba85a5dcf1
