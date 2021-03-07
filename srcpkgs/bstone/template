@@ -1,0 +1,13 @@
+# Template file for 'bstone'
+pkgname=bstone
+version=1.2.10
+revision=1
+build_style=cmake
+configure_args="../src -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/bin"
+makedepends="SDL2-devel"
+short_desc="Unofficial source port for Blake Stone series "
+maintainer="ajshell1 <11084981+ajshell1@users.noreply.github.com>"
+license="GPL-2.0-only"
+homepage="https://github.com/bibendovsky/bstone"
+distfiles="https://github.com/bibendovsky/bstone/archive/v${version}.tar.gz"
+checksum=3c1ada4990ed43dfeb666deb00dc02fce5208d4ddc84b0b3fb0a47d7110d552e
