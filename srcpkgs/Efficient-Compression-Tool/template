@@ -1,0 +1,22 @@
+# Template file for 'Efficient-Compression-Tool'
+pkgname=Efficient-Compression-Tool
+version=0.8.3
+revision=1
+#archs="i686 x86_64"
+#wrksrc=
+#create_wrksrc=yes
+build_style=cmake
+configure_args="../src"
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends="nasm"
+makedepends=""
+depends=""
+short_desc=" Fast and effective C++ file optimizer"
+maintainer="ajshell1 <11084981+ajshell1@users.noreply.github.com>"
+license="Apache-2.0"
+homepage="https://github.com/fhanau/Efficient-Compression-Tool"
+distfiles="https://github.com/fhanau/Efficient-Compression-Tool/archive/v0.8.3.tar.gz"
+checksum=c69c8fe350f07ef6c11ad5cc6216a085049ae9bb2b10679ac531cecdcb4e2c5b
