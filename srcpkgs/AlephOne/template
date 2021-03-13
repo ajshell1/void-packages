@@ -1,0 +1,22 @@
+# Template file for 'AlephOne'
+pkgname=AlephOne
+version=20200904
+revision=1
+#archs="i686 x86_64"
+#wrksrc=
+#create_wrksrc=yes
+build_style=gnu-configure
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends="pkg-config"
+makedepends="SDL2-devel SDL2_image-devel SDL2_mixer-devel SDL2_net-devel SDL2_ttf-devel boost-devel libcurl-devel expat-devel libmad-devel libpng-devel speex-devel speexdsp-devel ffmpeg-devel zziplib-devel"
+depends=""
+short_desc="The open source continuation of Bungie’s Marathon 2 game engine."
+maintainer="ajshell1 <11084981+ajshell1@users.noreply.github.com>"
+license="GPL-3.0-or-later"
+homepage="https://alephone.lhowon.org/"
+distfiles="https://github.com/Aleph-One-Marathon/alephone/releases/download/release-20200904/AlephOne-20200904.tar.bz2"
+checksum=90227ab6ddac86af8b18eeee22dfc4b66ebe083979f36f709cb7349c6e1d938d
